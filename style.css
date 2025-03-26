@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2ff; /* Azul claro */
+    color: #03396c; /* Azul escuro */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Cabeçalhos */
+h1 {
+    color: #011f4b; /* Azul mais escuro */
+}
+
+/* Parágrafos */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Imagens */
+img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+a {
+    color: #005b96; /* Azul médio */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6497b1; /* Azul mais claro */
+}
+
+/* Lista de links */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Botões */
+button {
+    background-color: #005b96; /* Azul médio */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #03396c; /* Azul escuro */
+}
